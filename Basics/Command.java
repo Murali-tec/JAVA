@@ -1,0 +1,13 @@
+//Command Line Arguments in Java
+//args[] is an Array.
+import java.lang.*;
+
+public class Command {
+    public static void main(String args[]){
+        for(int i=0;i<args.length;i++){
+            System.out.println(args[i]);
+
+        }
+
+    }
+}
